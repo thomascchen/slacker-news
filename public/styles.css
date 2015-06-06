@@ -1,0 +1,191 @@
+body {
+  display: block;
+  width: 84%;
+  margin: 8px auto;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  text-align: left;
+}
+
+header {
+  background: #ff6600;
+  color: black;
+}
+
+header li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header img {
+  display: inline;
+  border: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  margin: 2px -1px -1px 2px;
+}
+
+#title {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#login {
+  float: right;
+  margin-top: 3px;
+  margin-right: 7px;
+}
+
+section {
+  width: auto;
+  background-color: #f6f6ef;
+  padding: 8px;
+}
+
+section ol {
+  color: #828282;
+  margin-left: -18px;
+  margin-top: 1px;
+}
+
+section ol > li {
+  list-style-type: decimal;
+  font-size: 10pt;
+  line-height: 14px;
+  margin-top: 5px;
+}
+
+section ul {
+  margin-left: -30px;
+  color: #828282;
+}
+
+section ul li {
+  list-style-image: url("https://news.ycombinator.com/grayarrow.gif");
+  text-indent: -5px;
+}
+
+section ul li:nth-of-type(2n) {
+  list-style: none;
+  font-size: 7pt;
+}
+
+.comments li {
+  margin-left: 10px;
+}
+
+li.comments {
+  margin-top: -8px;
+}
+
+.comments .subtext {
+  padding-top: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.subtext a {
+  color: #828282;
+}
+
+.subtext a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #828282;
+}
+
+header a:visited {
+  color: black;
+}
+
+a + span {
+  font-size: 8pt;
+}
+
+p {
+  margin-left: 27px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+hr {
+  border-color: #ff6600;
+  margin: 0;
+}
+
+footer {
+  padding: 6px;
+  display: block;
+  background: #f6f6ef;
+  text-align: center;
+  font-size: 8pt;
+}
+
+footer li {
+  display: inline-block;
+}
+
+form {
+  padding: 8px;
+}
+
+label {
+  font-size: 10pt;
+  color: #828282;
+}
+
+input {
+  width: 146px;
+  padding: 1px;
+}
+
+.comment_form form {
+  margin-left: 8px;
+  margin-top: -6px;
+}
+
+.comment_form input {
+  width: auto;
+}
+
+.comments_list .subtext {
+  margin-bottom: 3px;
+}
+
+.subtext {
+  font-size: 8pt;
+}
+
+.subtext ~ .comment {
+  font-size: 9pt;
+  color: black;
+  list-style: none;
+  padding: 3px;
+  text-indent: -1px;
+}
+
+.subtext ~ .comment a, .reply a{
+  text-decoration: underline;
+}
+
+.reply {
+  font-size: 7pt;
+  list-style: none;
+  margin-top: 3px;
+  margin-bottom: -6px;
+  text-indent: 2px;
+}
+
+#secondlevel li {
+  margin-left: 42px;
+  text-align: left;
+}
+
+#thirdlevel li {
+  margin-left: 80px;
+}
